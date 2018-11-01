@@ -2,6 +2,9 @@ package com.company.card.mir;
 
 import com.company.CardBasic;
 
+/**
+ * Class creating CardMirDebet
+ */
 public class CardMirDebet extends CardBasic implements ICardMir {
 
     /**
