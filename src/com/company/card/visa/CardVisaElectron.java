@@ -11,7 +11,7 @@ public class CardVisaElectron extends CardBasic implements ICardVisa {
 
     /**
      *Method generating number card
-     * @return number card
+     * @return return number card
      */
     public CardVisaElectron() {
         super(NUMBERFIRST + "8888", 16);
