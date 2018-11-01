@@ -9,6 +9,6 @@ public class CardVisaGold extends CardBasic implements ICardVisa {
      * @return number card
      */
     public CardVisaGold() {
-        super(NUMBERFIRST + "9999", 17);
+        super(NUMBER_FIRST + "9999", 17);
     }
 }
