@@ -5,5 +5,5 @@ package com.company.card.visa;
  */
 public interface ICardVisa {
 
-    String NUMBERFIRST = "4";
+    String NUMBER_FIRST = "4";
 }
