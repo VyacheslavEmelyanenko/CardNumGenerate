@@ -1,7 +1,7 @@
 package com.company.card.visa;
 
 /**
- * Interface CardVisa
+ * Interface ICardVisa
  */
 public interface ICardVisa {
 
