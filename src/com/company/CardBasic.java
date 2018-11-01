@@ -2,6 +2,9 @@ package com.company;
 
 import com.company.utils.CardGenerate;
 
+/**
+ * Base class for all card
+ */
 public class CardBasic implements ICard {
 
     protected String numberBIN;
