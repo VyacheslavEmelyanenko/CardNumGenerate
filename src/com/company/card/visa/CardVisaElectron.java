@@ -4,6 +4,9 @@ import com.company.CardBasic;
 
 import static com.company.card.visa.ICardVisa.NUMBERFIRST;
 
+/**
+ * Class creating CardVisaElectron
+ */
 public class CardVisaElectron extends CardBasic implements ICardVisa {
 
     /**
