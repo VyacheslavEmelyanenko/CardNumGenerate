@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         CardValidate validator = new LuhnValidate();
-        for (String typeCard : args) { 
+        for (String typeCard : args) {
 
             ICard card = CardFactory.getCard(typeCard.toUpperCase());
 
