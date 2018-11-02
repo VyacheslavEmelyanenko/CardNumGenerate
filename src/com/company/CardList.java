@@ -1,5 +1,15 @@
 package com.company;
 
+import com.company.card.masterCard.CardMasterCardElectronic;
+import com.company.card.masterCard.CardMasterCardMaestro;
+import com.company.card.masterCard.CardMasterCardStandard;
+import com.company.card.mir.CardMirClassic;
+import com.company.card.mir.CardMirDebet;
+import com.company.card.mir.CardMirPremium;
+import com.company.card.visa.CardVisaClassic;
+import com.company.card.visa.CardVisaElectron;
+import com.company.card.visa.CardVisaGold;
+
 public enum CardList {
     CARDVISAGOLD(CardVisaGold.class),
     CARDVISACLASSIC(CardVisaClassic.class),
