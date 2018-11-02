@@ -5,7 +5,11 @@ import com.company.valid.CardValidate;
 import com.company.valid.LuhnValidate;
 
 public class Main {
-
+    
+    /**
+     * Method generate card
+     * @param args
+     */
     public static void main(String[] args) {
         CardValidate validator = new LuhnValidate();
         for (String typeCard : args) {
