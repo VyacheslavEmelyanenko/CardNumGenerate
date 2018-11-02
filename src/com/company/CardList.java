@@ -10,6 +10,9 @@ import com.company.card.visa.CardVisaClassic;
 import com.company.card.visa.CardVisaElectron;
 import com.company.card.visa.CardVisaGold;
 
+/**
+ * Class implements the enumeration card
+ */
 public enum CardList {
     CARDVISAGOLD(CardVisaGold.class),
     CARDVISACLASSIC(CardVisaClassic.class),
