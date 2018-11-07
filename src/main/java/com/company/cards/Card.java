@@ -1,8 +1,8 @@
-package com.company;
+package main.java.com.company.cards;
 
 /**
  * Interface setting for all card
  */
-public interface ICard {
+public interface Card {
     public String getNumber();
 }

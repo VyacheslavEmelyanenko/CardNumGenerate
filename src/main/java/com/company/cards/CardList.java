@@ -1,4 +1,4 @@
-package com.company;
+package main.java.com.company.cards;
 
 import com.company.card.masterCard.CardMasterCardElectronic;
 import com.company.card.masterCard.CardMasterCardMaestro;

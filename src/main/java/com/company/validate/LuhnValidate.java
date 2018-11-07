@@ -1,4 +1,4 @@
-package com.company.valid;
+package main.java.com.company.validate;
 
 public class LuhnValidate extends CardValidate {
     @Override
