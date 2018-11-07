@@ -1,17 +1,18 @@
-package com.company.card.mir;
+package main.java.com.company.cards.mir;
 
-import com.company.CardBasic;
+import main.java.com.company.cards.CardBasic;
 
 /**
  * Class creating CardMirPremium
  */
-public class CardMirPremium extends CardBasic implements ICardMir {
-
+public class CardMirPremium extends CardBasic {
+    private static final String BIN_NUMBER = "466666";
+    private static final int LENGTH_NUMBER_CARD = 17;
     /**
-     *Method generating number card
-     * @return number card
+     *Method generating number cards
+     * @return number cards
      */
     public CardMirPremium() {
-        super(NUMBER_FIRST + "6666", 17);
+        super(BIN_NUMBER, LENGTH_NUMBER_CARD);
     }
 }
