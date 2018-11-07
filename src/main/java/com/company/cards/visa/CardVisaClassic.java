@@ -1,14 +1,16 @@
-package com.company.card.visa;
+package main.java.com.company.cards.visa;
 
-import com.company.CardBasic;
+import main.java.com.company.cards.CardBasic;
 
-public class CardVisaClassic extends CardBasic implements ICardVisa {
+public class CardVisaClassic extends CardBasic {
+    private static final String BIN_NUMBER = "477777";
+    private static final int LENGTH_NUMBER_CARD = 16;
 
     /**
-     *Method generating number card
-     * @return number card
+     *Method generating number cards
+     * @return number cards
      */
     public CardVisaClassic() {
-        super(NUMBER_FIRST + "9999", 17);
+        super(BIN_NUMBER, LENGTH_NUMBER_CARD);
     }
 }

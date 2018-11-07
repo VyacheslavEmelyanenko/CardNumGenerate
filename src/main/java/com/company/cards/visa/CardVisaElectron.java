@@ -1,18 +1,20 @@
-package com.company.card.visa;
+package main.java.com.company.cards.visa;
 
-import com.company.CardBasic;
+import main.java.com.company.cards.CardBasic;
 
 
 /**
  * Class creating CardVisaElectron
  */
-public class CardVisaElectron extends CardBasic implements ICardVisa {
+public class CardVisaElectron extends CardBasic {
+    private static final String BIN_NUMBER = "48888";
+    private static final int LENGTH_NUMBER_CARD = 16;
 
     /**
-     *Method generating number card
-     * @return return number card
+     *Method generating number cards
+     * @return number cards
      */
     public CardVisaElectron() {
-        super(NUMBER_FIRST + "8888", 16);
+        super(BIN_NUMBER, LENGTH_NUMBER_CARD);
     }
 }
