@@ -1,4 +1,4 @@
-package main.java.com.company.card.masterCard;
+package main.java.com.company.cards.masterCard;
 
 import main.java.com.company.cards.CardBasic;
 
