@@ -1,9 +1,9 @@
-package main.java.com.company;
+package com.company;
 
-import main.java.com.company.utils.CardFactory;
-import main.java.com.company.validate.CardValidate;
-import main.java.com.company.validate.LuhnValidate;
-import main.java.com.company.cards.Card;
+import com.company.utils.CardFactory;
+import com.company.validate.CardValidate;
+import com.company.validate.LuhnValidate;
+import com.company.cards.Card;
 
 public class СardNumberGenerator {
     /**

@@ -1,6 +1,6 @@
-package main.java.com.company.cards;
+package com.company.cards;
 
-import main.java.com.company.utils.CardGenerate;
+import com.company.utils.CardGenerate;
 
 /**
  * Base class for all card

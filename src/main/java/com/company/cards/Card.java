@@ -1,4 +1,4 @@
-package main.java.com.company.cards;
+package com.company.cards;
 
 /**
  * Interface setting for all card

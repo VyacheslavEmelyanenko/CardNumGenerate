@@ -1,6 +1,6 @@
-package main.java.com.company.cards.mir;
+package com.company.cards.mir;
 
-import main.java.com.company.cards.CardBasic;
+import com.company.cards.CardBasic;
 
 /**
  * Class creating CardMirPremium

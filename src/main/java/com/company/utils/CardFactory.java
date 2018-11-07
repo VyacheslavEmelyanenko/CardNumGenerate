@@ -1,7 +1,7 @@
-package main.java.com.company.utils;
+package com.company.utils;
 
-import main.java.com.company.cards.Card;
-import main.java.com.company.cards.CardList;
+import com.company.cards.Card;
+import com.company.cards.CardList;
 
 /**
  * Card Fabric

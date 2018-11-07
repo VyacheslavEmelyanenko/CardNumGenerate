@@ -1,4 +1,4 @@
-package main.java.com.company.validate;
+package com.company.validate;
 
 /**
  * Abstract class that implements the validate

@@ -1,14 +1,14 @@
-package main.java.com.company.cards;
+package com.company.cards;
 
-import main.java.com.company.cards.masterCard.CardMasterCardElectronic;
-import main.java.com.company.cards.masterCard.CardMasterCardMaestro;
-import main.java.com.company.cards.masterCard.CardMasterCardStandard;
-import main.java.com.company.cards.mir.CardMirClassic;
-import main.java.com.company.cards.mir.CardMirDebet;
-import main.java.com.company.cards.mir.CardMirPremium;
-import main.java.com.company.cards.visa.CardVisaClassic;
-import main.java.com.company.cards.visa.CardVisaElectron;
-import main.java.com.company.cards.visa.CardVisaGold;
+import com.company.cards.masterCard.CardMasterCardElectronic;
+import com.company.cards.masterCard.CardMasterCardMaestro;
+import com.company.cards.masterCard.CardMasterCardStandard;
+import com.company.cards.mir.CardMirClassic;
+import com.company.cards.mir.CardMirDebet;
+import com.company.cards.mir.CardMirPremium;
+import com.company.cards.visa.CardVisaClassic;
+import com.company.cards.visa.CardVisaElectron;
+import com.company.cards.visa.CardVisaGold;
 
 /**
  * Class implements the enumeration card

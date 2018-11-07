@@ -1,6 +1,6 @@
-package main.java.com.company.cards.masterCard;
+package com.company.cards.masterCard;
 
-import main.java.com.company.cards.CardBasic;
+import com.company.cards.CardBasic;
 
 public class CardMasterCardStandard extends CardBasic {
     private static final String BIN_NUMBER = "433333";
