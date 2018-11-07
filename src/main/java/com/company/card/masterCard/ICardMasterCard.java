@@ -7,5 +7,5 @@ import com.company.ICard;
  */
 public interface ICardMasterCard extends ICard {
 
-    String NUMBERFIRST = "5";
+    String NUMBER_FIRST = "5";
 }

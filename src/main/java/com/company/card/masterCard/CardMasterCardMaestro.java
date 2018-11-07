@@ -9,6 +9,6 @@ public class CardMasterCardMaestro extends CardBasic implements ICardMasterCard 
      * @return number card
      */
     public CardMasterCardMaestro() {
-        super(NUMBERFIRST + "2222", 16);
+        super(NUMBER_FIRST + "2222", 16);
     }
 }

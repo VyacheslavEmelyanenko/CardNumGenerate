@@ -12,6 +12,6 @@ public class CardMirPremium extends CardBasic implements ICardMir {
      * @return number card
      */
     public CardMirPremium() {
-        super(NUMBERFIRST + "6666", 17);
+        super(NUMBER_FIRST + "6666", 17);
     }
 }

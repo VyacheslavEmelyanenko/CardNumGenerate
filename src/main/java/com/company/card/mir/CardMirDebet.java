@@ -12,6 +12,6 @@ public class CardMirDebet extends CardBasic implements ICardMir {
      * @return number card
      */
     public CardMirDebet() {
-        super(NUMBERFIRST + "5555", 16);
+        super(NUMBER_FIRST + "5555", 16);
     }
 }

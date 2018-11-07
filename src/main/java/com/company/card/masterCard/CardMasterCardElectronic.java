@@ -9,6 +9,6 @@ public class CardMasterCardElectronic extends CardBasic implements ICardMasterCa
      * @return number card
      */
     public CardMasterCardElectronic() {
-        super(NUMBERFIRST + "1111", 17);
+        super(NUMBER_FIRST + "1111", 17);
     }
 }

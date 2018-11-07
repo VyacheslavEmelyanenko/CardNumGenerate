@@ -7,5 +7,5 @@ import com.company.ICard;
  */
 public interface ICardMir extends ICard {
 
-    String NUMBERFIRST = "2";
+    String NUMBER_FIRST = "2";
 }

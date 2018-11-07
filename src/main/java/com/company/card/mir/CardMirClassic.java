@@ -9,9 +9,8 @@ public class CardMirClassic extends CardBasic implements ICardMir {
 
     /**
      *Method generating number card
-     * @return number card
      */
     public CardMirClassic() {
-        super(NUMBERFIRST + "4444", 18);
+        super(NUMBER_FIRST + "4444", 18);
     }
 }

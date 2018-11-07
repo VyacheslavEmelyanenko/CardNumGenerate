@@ -9,6 +9,6 @@ public class CardMasterCardStandard extends CardBasic implements ICardMasterCard
      * @return number card
      */
     public CardMasterCardStandard() {
-        super(NUMBERFIRST + "3333", 18);
+        super(NUMBER_FIRST + "3333", 18);
     }
 }
