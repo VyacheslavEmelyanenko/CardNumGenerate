@@ -1,14 +1,15 @@
-package com.company.card.masterCard;
+package main.java.com.company.cards.masterCard;
 
-import com.company.CardBasic;
+import main.java.com.company.cards.CardBasic;
 
-public class CardMasterCardElectronic extends CardBasic implements ICardMasterCard {
-
+public class CardMasterCardElectronic extends CardBasic {
+    private static final String BIN_NUMBER = "411111";
+    private static final int LENGTH_NUMBER_CARD = 16;
     /**
-     *Method generating number card
-     * @return number card
+     *Method generating number cards
+     * @return number cards
      */
     public CardMasterCardElectronic() {
-        super(NUMBER_FIRST + "1111", 17);
+        super(BIN_NUMBER,LENGTH_NUMBER_CARD);
     }
 }
