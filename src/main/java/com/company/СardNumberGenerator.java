@@ -6,6 +6,7 @@ import com.company.validate.LuhnValidate;
 import com.company.cards.Card;
 
 public class СardNumberGenerator {
+
     /**
      * Main method class
      * @param args set program arguments
