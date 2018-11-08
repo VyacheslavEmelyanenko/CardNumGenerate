@@ -3,7 +3,7 @@ package com.company.cards.masterCard;
 import com.company.cards.CardBasic;
 
 public class CardMasterCardElectronic extends CardBasic {
-    private static final String BIN_NUMBER = "411111";
+    private static final String BIN_NUMBER = "511111";
     private static final int LENGTH_NUMBER_CARD = 16;
     /**
      *Method generating number cards
