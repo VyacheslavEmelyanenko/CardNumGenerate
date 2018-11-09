@@ -4,7 +4,7 @@ import com.epam.cardgenerator.utils.CardFactory;
 import com.epam.cardgenerator.utils.CardHandler;
 import com.epam.cardgenerator.cards.Card;
 
-public class СardNumberGenerator {
+public class CardNumberGenerator {
 
     /**
      * Main method class

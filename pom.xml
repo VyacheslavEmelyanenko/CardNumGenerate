@@ -18,7 +18,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.epam.cardgenerator.СardNumberGenerator</mainClass>
+                            <mainClass>com.epam.cardgenerator.CardNumberGenerator</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
