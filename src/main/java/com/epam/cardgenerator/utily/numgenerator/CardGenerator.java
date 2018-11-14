@@ -1,8 +1,8 @@
-package com.epam.cardgenerator.utils;
+package com.epam.cardgenerator.utily.numgenerator;
 
 import java.util.Random;
 
-public class CardGenerate {
+public class CardGenerator {
 
     private static final Random RNG = new Random(System.currentTimeMillis());
     private static final int DIGIT_UPPER_LIMIT = 10;

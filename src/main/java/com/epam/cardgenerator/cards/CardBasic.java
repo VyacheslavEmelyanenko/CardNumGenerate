@@ -1,6 +1,7 @@
 package com.epam.cardgenerator.cards;
 
-import com.epam.cardgenerator.utils.CardGenerate;
+import com.epam.cardgenerator.validator.LuhnNumberGenerator;
+import com.epam.cardgenerator.validator.NumberGenerator;
 
 /**
  * Base class for all card
@@ -9,7 +10,7 @@ public abstract class CardBasic implements Card {
 
     protected String numberBIN;
     protected int numberLength;
-    private CardGenerate cardNumberGenerator;
+    private NumberGenerator cardNumberGenerator = new LuhnNumberGenerator();
 
     /**
      * Class generating number cards, setting BIN and Length cards
@@ -20,8 +21,6 @@ public abstract class CardBasic implements Card {
 
         this.numberBIN = numberBIN;
         this.numberLength = numberLength;
-
-        this.cardNumberGenerator = new CardGenerate();
     }
 
     /**
@@ -30,6 +29,6 @@ public abstract class CardBasic implements Card {
      */
     @Override
     public String getNumber() {
-        return cardNumberGenerator.generate(numberBIN, numberLength);
+        return cardNumberGenerator.generateNumber(numberBIN, numberLength);
     }
 }
